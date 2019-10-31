@@ -1,0 +1,54 @@
+namespace Account
+	{
+	    public class Account
+	    {
+	        private string Id;
+	        private string Name;
+	        private int Balance;
+	
+
+	        public Account( string ID, string N, int Ba)
+	        {
+	            Id = ID;
+	            Name = N;
+	            Balance = Ba;
+	        }
+	
+
+	        public string GetId()
+	        {
+	            return Id;
+	        }
+	
+
+	        public string GetName()
+	        {
+	            return Name;
+	        }
+	
+
+	        public int  GetBalance()
+	        {
+	            return Balance;
+	        }
+	
+
+	        public int Credit(int Amount)
+	        {
+	        return 1;
+	        }
+	
+
+	        public int Debit(int Amount )
+	        {
+	            return 1;
+	        }
+	        
+	
+
+	        public override string ToString()
+	        {
+	            return base.ToString();
+	        }
+	    }
+	}
