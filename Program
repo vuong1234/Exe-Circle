@@ -1,0 +1,11 @@
+namespace Rectangle
+	{
+	    class Program
+	    {
+	        static void Main(string[] args)
+	        {
+	            Rec r1 = new Rec();
+	            Console.WriteLine("Lenght = {0}, Width = {1} -> Area = {2}", r1.GetLenght(),r1.GetWidth(),r1.GetArea());
+	        }
+	    }
+	}
